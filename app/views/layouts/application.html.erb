@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nameofapp</title>
+    <title>ODIN</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,17 @@
   </head>
 
   <body>
+  <nav>
+  	<ul>
+  		<li>Home</li>
+  		<li>About</li>
+  		<li>Contact</li>
+  	</ul>
+  </nav>
     <%= yield %>
+
+    <footer>
+    	&copy; 2017 Gates of Valhalla 
+    </footer>
   </body>
 </html>
